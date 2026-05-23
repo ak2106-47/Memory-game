@@ -1,0 +1,27 @@
+HOW TO OPEN THIS GAME (read this if you saw a blank/unstyled page)
+===================================================================
+
+The blank page with Times New Roman font happens when index.html gets
+SEPARATED from its 3 companion files. They must all be in the SAME folder.
+
+DO THIS:
+
+1. EXTRACT the whole zip first. Do NOT open index.html from inside the
+   zip preview window.
+     - Windows: right-click the zip -> "Extract All..."
+     - Mac: double-click the zip to unzip it
+
+2. Open the extracted folder. You MUST see all 5 of these files together:
+     index.html
+     style.css
+     game.js
+     flowers.js
+     README.md
+
+   If you only see index.html, the extraction didn't finish — repeat step 1.
+
+3. NOW double-click index.html (from inside that folder).
+
+4. Pick a level. The flower cards will appear.
+
+That's it. As long as the files stay together, it works.

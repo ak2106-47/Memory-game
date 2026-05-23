@@ -1,28 +1,37 @@
-# Memory-Game
-This was my first project as a front-end developer.<br>I have tried to replicate one of our favourite childhood games : The Memory Game.<br>
-Rules of this game are pretty simple: the player has to find all the hidden pairs in a certain given number of moves.
+# 🌸 Flower Memory Game
 
-<b>There are 3 levels in this game that I designed: "Easy", "Medium" and "Hard". They differ in number of moves available and number of tiles to be flipped.</b>
+A browser-based memory card matching game with 3 difficulty levels.
 
-<h3>Technologies Used</h3>
-<li> HTML</li>
-<li>CSS</li>
-<li> Javascript</li>
+## How to Play
 
-<h3> Preview </h3>
-Below are some of the snapshots of the game:
-<br>The First page:
-<img src="Pics/welcome_pg.PNG">
-These gifs explain the basic working of the webpage:
-<br><img src="Pics/gif1.gif">
-<br><img src="Pics/gif2.gif">
-<br><img src="Pics/gif3.gif">
-<br>At game end:
-<br>If the player wins:
-<img src="Pics/win_disp.PNG">
-If the player loses:
-<img src="Pics/lose_disp.PNG">
+1. Open `index.html` in any browser — no build step or server required.
+2. Pick a difficulty: **Easy**, **Medium**, or **Hard**.
+3. Click cards to flip them and find matching pairs.
+4. Match all pairs before running out of moves to win. Each match awards +2 bonus moves.
 
-<h3>How to Run</h3>
-Pull/Download the "Memory Game" folder into your desired directory and open the file named "memory_game.html" into your browser.
-That's it! You canplay and enjoy anytime!!
+## Difficulty Levels
+
+| Level  | Grid  | Pairs | Starting Moves |
+|--------|-------|-------|----------------|
+| Easy   | 4 × 4 | 8     | 35             |
+| Medium | 6 × 4 | 12    | 55             |
+| Hard   | 6 × 6 | 18    | 70             |
+
+## Project Structure
+
+```
+index.html   — markup and layout
+style.css    — all styling
+game.js      — game logic
+flowers.js   — the 18 flower images (inline SVG data URIs)
+```
+
+The flower images are embedded directly in `flowers.js`, so there are no
+external image requests — the game loads instantly and works fully offline.
+
+## Hosting on GitHub Pages
+
+1. Push all four files to a GitHub repository (keep them in the same folder).
+2. Go to **Settings → Pages**.
+3. Set source to **main branch / root**.
+4. Your game will be live at `https://<your-username>.github.io/<repo-name>/`
