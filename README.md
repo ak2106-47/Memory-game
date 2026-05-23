@@ -16,6 +16,12 @@ A browser-based memory card matching game with 3 difficulty levels.
 | Easy   | 4 × 4 | 8     | 35             |
 | Medium | 6 × 4 | 12    | 55             |
 | Hard   | 6 × 6 | 18    | 70             |
+<img width="1866" height="965" alt="image" src="https://github.com/user-attachments/assets/99838606-e442-4764-a57b-e924aacccb44" />
+
+<img width="1841" height="980" alt="image" src="https://github.com/user-attachments/assets/ff94a69b-2a84-4f37-bd06-c4fbdf142ed8" />
+
+<img width="1898" height="969" alt="image" src="https://github.com/user-attachments/assets/593cad25-1a4d-436a-81e4-68dd560bbd43" />
+
 
 <img width="1899" height="978" alt="image" src="https://github.com/user-attachments/assets/4337391b-7f00-4ba2-b6c2-db27c4a92ed4" />
 
