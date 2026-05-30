@@ -40,7 +40,4 @@ external image requests — the game loads instantly and works fully offline.
 
 ## Hosting on GitHub Pages
 
-1. Push all four files to a GitHub repository (keep them in the same folder).
-2. Go to **Settings → Pages**.
-3. Set source to **main branch / root**.
-4. Your game will be live at `https://<your-username>.github.io/<repo-name>/`
+Just download the zip, extract it and run the index.html file. That's it!
